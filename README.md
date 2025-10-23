@@ -25,7 +25,7 @@ This project demonstrates the fundamentals of web design — form creation, tabl
 ## 💡 Technologies Used
 
 - **HTML5**
-- **CSS3 (Internal Styling)**
+- **CSS3 **
 
 ---
 
