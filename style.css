@@ -1,0 +1,142 @@
+body{
+    font-family: Arial, sans-serif;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    text-align: center;
+    color: rgb(3, 3, 3);
+    margin-top: 30px;
+}
+
+.container{
+    width: 100%;
+    max-width: 800px;
+    background: #faf8f8;
+    margin: 40px auto;
+    padding: 20px 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+label{
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="number"],
+input[type="email"],
+input[type="date"],
+select,
+textarea,
+input[type="file"]{
+    width: 100%;
+    padding: 8px;
+    font-weight: bolder;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    transition: 0.3s;
+}
+
+input:focus, select:focus, textarea:focus{
+    border-color: #5563DE;
+    outline: none;
+    box-shadow: 0 0 5px rgba(85, 99, 222, 0.5);
+}
+#dept{
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    transition: 0.3s;
+}
+
+#dept:focus, select:focus{
+    border-color: #5563DE;
+    outline: none;
+    box-shadow: 0 0 5px rgba(85, 99, 222, 0.5);
+}
+
+#dob{
+    width: 200px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    transition: 0.3s;
+}
+
+#dob:focus, select:focus{
+    border-color: #5563DE;
+    outline: none;
+    box-shadow: 0 0 5px rgba(85, 99, 222, 0.5);
+}
+
+.gender, .skills{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+button{
+    width: 120px;
+    padding: 10px;
+    background-color: #3447f5;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+button:hover{
+    background-color: #3848B5;
+}
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 30px;
+}
+
+th, td{
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+}
+
+th{
+    background-color: #293ce4;
+    color: white;
+}
+
+tr:nth-child(even){
+    background-color: #dfcdcd;
+}
+ footer {
+    text-align: center;
+    background-color: #f7f7f8; 
+    color: rgb(90, 89, 89);
+    padding: 15px;
+    margin-top: 40px;
+    font-size: 14px;
+}
+
+footer a {
+    color: #8b8b8a;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+
