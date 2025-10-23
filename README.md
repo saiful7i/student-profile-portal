@@ -38,7 +38,6 @@ This project demonstrates the fundamentals of web design — form creation, tabl
 ---
 
 ## 🌐 Live Demo
-## 🌐 Live Demo
 
 You can see the live Student Profile Portal here:  
 [View Live Demo](https://saiful7i.github.io/student-profile-portal/)
