@@ -33,7 +33,7 @@ This project demonstrates the fundamentals of web design — form creation, tabl
 
 1. Download or clone the repository:
    ```bash
-   git clone https://github.com/your-username/student-profile-portal.git
+   git clone https://github.com/saiful7i/student-profile-portal.git
 
 ---
 
